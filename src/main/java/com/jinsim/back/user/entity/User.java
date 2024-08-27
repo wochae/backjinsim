@@ -1,4 +1,4 @@
-package com.jinsim.back.user;
+package com.jinsim.back.user.entity;
 
 import com.jinsim.back.letters.entity.Letter;
 import jakarta.persistence.*;
