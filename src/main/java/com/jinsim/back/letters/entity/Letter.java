@@ -1,7 +1,7 @@
 package com.jinsim.back.letters.entity;
 
 
-import com.jinsim.back.user.User;
+import com.jinsim.back.user.entity.User;
 import jakarta.persistence.*;
 import java.util.Date;
 import lombok.Data;
