@@ -12,13 +12,13 @@ import org.springframework.stereotype.Service;
 public class LetterService {
     private final LetterRepository letterRepository;
 
-//    public List<Letter> getReceivedLetters(Long userId) {
-//        return letterRepository.findByRecipientId(userId);
-//    }
-//
-//    public List<Letter> getAuthoredLetters(Long userId) {
-//        return letterRepository.findByAuthorId(userId);
-//    }
+    public List<Letter> getReceivedLetters(Long userId) {
+        return letterRepository.findByRecipientId(userId);
+    }
+
+    public List<Letter> getAuthoredLetters(Long userId) {
+        return letterRepository.findByAuthorId(userId);
+    }
 
     public Optional<Letter> getLetter(Long letterId) {
         return letterRepository.findById(letterId);
